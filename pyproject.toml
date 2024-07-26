@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convnet-intro"
+authors = [
+  { name: "Nicholas Bonetto", email: "nick.bonetto@gmail.com" }
+]
+description = "An introductary project to convolutional neural networks. This ML model is trained to identify digits from the MNIST dataset."
+dependencies = [
+  "tensorflow",
+  "keras",
+  "numpy",
+  "matplotlib"
+]
